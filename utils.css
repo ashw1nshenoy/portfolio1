@@ -1,0 +1,16 @@
+ul{
+    list-style: none;
+}
+li{
+    padding: 0 1rem ;
+}
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.item-center{
+    justify-content: center;
+    align-items: center;
+}

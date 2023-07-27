@@ -1,0 +1,88 @@
+.nav{
+   background-color:black;
+   color: white;
+}
+body{
+    border: 0;
+    margin: 0;
+}
+.logo{
+padding-left: 1rem;
+}
+.parallax,nav{
+    margin:0;
+    padding: 0;
+}
+.content{
+    background-color: black;
+    height: 100vh;
+    overflow: hidden;
+}
+.content h1{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    text-align: center;
+}
+.box ul li{
+    position: absolute;
+    width: 1rem;
+    height: 2rem;
+    list-style: none;
+    opacity: 0;
+    background: radial-gradient(#7895CB,transparent,transparent);
+    bottom: 0;
+    left: 10vw;
+    animation: animate 15s linear infinite;
+}
+.box ul li:nth-child(2){
+    left: 37vw;
+    animation-delay: 2s;
+}
+.box ul li:nth-child(3){
+    left: 25vw;
+    animation-delay: 4s;
+}
+.box ul li:nth-child(4){
+    left: 60vw;
+    animation-delay: 6s;
+}
+.box ul li:nth-child(5){
+    left: 75vw;
+    animation-delay: 4s;
+}
+.box ul li:nth-child(6){
+    left: 55vw;
+    animation-delay: 2s;
+}
+.box ul li:nth-child(7){
+    left: 5vw;
+    animation-delay: 9s;
+}
+.box ul li:nth-child(8){
+    left: 18vw;
+    animation-delay: 8s;
+}
+.box ul li:nth-child(9){
+    left: 45vw;
+    animation-delay: 9s;
+}
+.box ul li:nth-child(10){
+    left: 77vw;
+    animation-delay: 7s;
+}
+@keyframes animate {
+    0%{
+        transform: scale(0);
+        opacity: 1;
+        bottom: 0;
+    }
+    100%{
+        transform: scale(5);
+        opacity: 0;
+        bottom: 100vh;
+    }
+}
