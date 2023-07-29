@@ -86,3 +86,11 @@ padding-left: 1rem;
         bottom: 100vh;
     }
 }
+.content img{
+    height: 20rem;
+    width: 15rem;
+    position: absolute;
+    top: 50vh;
+    left: 7rem;
+    z-index: 1;
+}
