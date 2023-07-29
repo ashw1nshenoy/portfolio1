@@ -9,8 +9,8 @@ body{
 .logo{
 padding-left: 1rem;
 }
-.parallax,nav{
-    margin:0;
+.box ul{
+    margin: 0;
     padding: 0;
 }
 .content{
@@ -36,7 +36,7 @@ padding-left: 1rem;
     background: radial-gradient(#7895CB,transparent,transparent);
     bottom: 0;
     left: 10vw;
-    animation: animate 15s linear infinite;
+    animation: animate 8s linear infinite;
 }
 .box ul li:nth-child(2){
     left: 37vw;
@@ -44,35 +44,35 @@ padding-left: 1rem;
 }
 .box ul li:nth-child(3){
     left: 25vw;
-    animation-delay: 4s;
+    animation-delay: 3s;
 }
 .box ul li:nth-child(4){
     left: 60vw;
-    animation-delay: 6s;
+    animation-delay: 4s;
 }
 .box ul li:nth-child(5){
     left: 75vw;
-    animation-delay: 4s;
+    animation-delay: 2s;
 }
 .box ul li:nth-child(6){
     left: 55vw;
-    animation-delay: 2s;
+    animation-delay: 4s;
 }
 .box ul li:nth-child(7){
     left: 5vw;
-    animation-delay: 9s;
+    animation-delay: 5s;
 }
 .box ul li:nth-child(8){
     left: 18vw;
-    animation-delay: 8s;
+    animation-delay: 4.5s;
 }
 .box ul li:nth-child(9){
     left: 45vw;
-    animation-delay: 9s;
+    animation-delay: 6s;
 }
 .box ul li:nth-child(10){
     left: 77vw;
-    animation-delay: 7s;
+    animation-delay: 3s;
 }
 @keyframes animate {
     0%{
