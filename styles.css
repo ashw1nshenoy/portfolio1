@@ -5,7 +5,6 @@ body{
 }
 header{
     overflow: hidden;
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
@@ -82,6 +81,27 @@ padding-left: 1rem;
     left: 77vw;
     animation-delay: 3s;
 }
+.box ul li:nth-child(11){
+    left: 7vw;
+    animation-delay: 3s;
+}
+.box ul li:nth-child(12){
+    left: 16vw;
+    animation-delay: 5s;
+}
+.box ul li:nth-child(13){
+    left: 33vw;
+    animation-delay: 3.8s;
+}
+.box ul li:nth-child(14){
+    left: 88vw;
+    animation-delay: 3s;
+}
+.box ul li:nth-child(15){
+    left: 46vw;
+    animation-delay: 4.6s;
+}
+
 @keyframes animate {
     0%{
         transform: scale(0);
@@ -105,13 +125,18 @@ padding-left: 1rem;
 .sec1,.sec2,.sec3,.sec4,.sec5,.sec6 {
     background-color: whitesmoke; 
 }
+.sec1{
+    flex-direction: column;
+    text-align: center;
+}
+.sec1 h2 ,h3{
+    margin: 0.1rem;
+}
 .sec1 img{
     height: 20rem;
     width: 20rem;
     border-radius: 50%;
-    position:relative;
-    top: 50%;
-    left: 37%;
-    border: 0.6rem solid yellow;
+    border: 0.3rem solid #F6FF86;
     margin: 3rem;
+    box-shadow: 1rem 0.6rem 2rem #FEFF86 ;
 }
