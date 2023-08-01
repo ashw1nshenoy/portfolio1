@@ -122,15 +122,16 @@ padding-left: 1rem;
     left: 7rem;
     z-index: 1;
 }
-.sec1,.sec2,.sec3,.sec4,.sec5,.sec6 {
+.sec3,.sec4,.sec5,.sec6 {
     background-color: whitesmoke; 
 }
 .sec1{
     flex-direction: column;
     text-align: center;
+    padding-bottom: 1rem;
 }
 .sec1 h2 ,h3{
-    margin: 0.1rem;
+    margin: 0.1rem ;
 }
 .sec1 img{
     height: 20rem;
@@ -139,4 +140,16 @@ padding-left: 1rem;
     border: 0.3rem solid #F6FF86;
     margin: 3rem;
     box-shadow: 1rem 0.6rem 2rem #FEFF86 ;
+}
+.sec2{
+    margin-top: 1rem;
+}
+.about{
+    background-color: whitesmoke;
+    width: 50%;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 2rem;
+    box-shadow: 2rem 1rem 2.2rem slategray;
 }
