@@ -3,6 +3,14 @@ body{
     border: 0;
     margin: 0;
 }
+.typing-effect{
+    width: 15ch;
+    overflow: hidden;
+    animation: typing 1.5s steps(10) infinite alternate-reverse;
+}
+@keyframes typing {
+    from{width: 0ch;}    
+}
 header{
     overflow: hidden;
     position: sticky;
@@ -151,5 +159,5 @@ padding-left: 1rem;
     padding: 2rem;
     margin: 2rem;
     border-radius: 2rem;
-    box-shadow: 2rem 1rem 2.2rem slategray;
+    box-shadow: 1.1rem 1rem 2rem #BCBFD6;
 }
