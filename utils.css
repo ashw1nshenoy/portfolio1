@@ -19,3 +19,6 @@ li{
     font-family: 'Nanum Pen Script', cursive;
     font-size: 3rem;
 }
+.flexcol{
+    flex-direction: column;
+}

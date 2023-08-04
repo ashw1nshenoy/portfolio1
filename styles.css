@@ -6,7 +6,7 @@ body{
 .typing-effect{
     width: 15ch;
     overflow: hidden;
-    animation: typing 1.5s steps(10) infinite alternate-reverse;
+    animation: typing 2s steps(10) infinite alternate-reverse;
 }
 @keyframes typing {
     from{width: 0ch;}    
@@ -160,4 +160,20 @@ padding-left: 1rem;
     margin: 2rem;
     border-radius: 2rem;
     box-shadow: 1.1rem 1rem 2rem #BCBFD6;
+}
+.sec4{
+    margin-left: 35.8rem;
+    background-color: whitesmoke;
+    width: 50%;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    box-shadow: 1.1rem 1rem 2rem #BCBFD6;
+}
+.sec4 img{
+    height: 3rem;
+    width: 3rem;
+    padding: 1rem;
 }
