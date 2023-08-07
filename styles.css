@@ -2,11 +2,16 @@
 body{
     border: 0;
     margin: 0;
+    scroll-behavior: smooth
 }
 .typing-effect{
     width: 15ch;
     overflow: hidden;
     animation: typing 2s steps(10) infinite alternate-reverse;
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }
 @keyframes typing {
     from{width: 0ch;}    
@@ -19,6 +24,7 @@ header{
 .nav{
     background-color:black;
     color: white;
+    padding-right: 1rem;
    
  }
 .logo{
@@ -156,24 +162,49 @@ padding-left: 1rem;
     background-color: whitesmoke;
     width: 50%;
     text-align: center;
-    padding: 2rem;
-    margin: 2rem;
+    padding: 5rem;
+    margin: 3rem;
     border-radius: 2rem;
-    box-shadow: 1.1rem 1rem 2rem #BCBFD6;
+    box-shadow: 1.1rem 1rem 1.8rem #BCBFD6;
 }
-.sec4{
-    margin-left: 35.8rem;
+.about p{
+    letter-spacing: 0.08rem;
+    padding-top: 1rem;
+    line-height: 2rem;
+}
+.sec3{
     background-color: whitesmoke;
     width: 50%;
-    text-align: center;
-    padding: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    padding: 5rem;
+    margin: 3rem;
     border-radius: 2rem;
-    box-shadow: 1.1rem 1rem 2rem #BCBFD6;
+    box-shadow: 1.1rem 1rem 1.8rem #BCBFD6;
 }
-.sec4 img{
+.skills{
     height: 3rem;
     width: 3rem;
     padding: 1rem;
+}
+.sec3 p{
+    font-weight: bold;
+}
+.sec3 h2{
+    padding: 1rem;
+}
+.sec4{
+    background-color: whitesmoke;
+    width: 50%;
+    padding: 5rem;
+    margin: 3rem;
+    border-radius: 2rem;
+    box-shadow: 1.1rem 1rem 1.8rem #BCBFD6;
+}
+.social{
+    height: 3rem;
+    width: 3rem;
+    padding: 1rem;
+}
+.pin{
+    height: 1.7rem;
+    width: 1.7rem;
 }

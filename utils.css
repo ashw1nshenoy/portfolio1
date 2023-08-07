@@ -22,3 +22,13 @@ li{
 .flexcol{
     flex-direction: column;
 }
+.flexrow{
+    flex-direction: row;
+}
+.text-center{
+    text-align: center;
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
