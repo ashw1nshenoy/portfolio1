@@ -2,7 +2,7 @@
 body{
     border: 0;
     margin: 0;
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
 }
 .typing-effect{
     width: 15ch;
@@ -203,6 +203,10 @@ padding-left: 1rem;
     height: 3rem;
     width: 3rem;
     padding: 1rem;
+    z-index: 0;
+}
+.social:hover{
+    transform: translate(0.7rem,0.9rem);
 }
 .sec5{
     background-color: whitesmoke;
@@ -215,4 +219,7 @@ padding-left: 1rem;
 .pin{
     height: 1.7rem;
     width: 1.7rem;
+}
+.resume:hover{
+    transform: scale(1.1);
 }
