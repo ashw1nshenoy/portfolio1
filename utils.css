@@ -32,3 +32,6 @@ li{
     display: flex;
     flex-wrap: wrap;
 }
+table td{
+    padding: 0.5rem;
+}
