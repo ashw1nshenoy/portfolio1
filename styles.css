@@ -1,9 +1,11 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 body{
     border: 0;
     margin: 0;
     scroll-behavior: smooth;
-    background-color: white;
+    background-color: whitesmoke;
     color: black;
 }
 .gradient-background {
@@ -12,6 +14,7 @@ body{
     background-size: 180% 180%;
     animation: gradient-animation 10s ease infinite;
   }
+
   
   @keyframes gradient-animation {
     0% {
@@ -27,6 +30,7 @@ body{
  
 .typing-effect{
     width: 15ch;
+    font-family: 'Yatra One', cursive;  
     overflow: hidden;
     animation: typing 2s steps(10) infinite alternate-reverse;
 }
@@ -46,10 +50,18 @@ header{
     background-color:black;
     color: white;
     padding-right: 1rem;
-   
  }
+.navbar{
+    font-size: large;
+    font-family: 'Caveat', cursive;
+    margin: 0.8rem;
+}
 .logo{
-padding-left: 1rem;
+padding:0rem 1.5rem;
+font-family: 'Mrs Saint Delafield', cursive;
+font-weight: 400;
+font-size: 1.6rem;
+letter-spacing: 0.22rem;
 }
 .box ul{
     margin: 0;
@@ -152,7 +164,7 @@ padding-left: 1rem;
 
 .dark-mode{
  background-color: black;
-
+ 
 }
 .content img{
     height: 20rem;

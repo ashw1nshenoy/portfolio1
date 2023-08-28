@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
 ul{
     list-style: none;
 }
@@ -14,10 +14,6 @@ li{
 .item-center{
     justify-content: center;
     align-items: center;
-}
-.content h1{
-    font-family: 'Nanum Pen Script', cursive;
-    font-size: 2rem;
 }
 .flexcol{
     flex-direction: column;
