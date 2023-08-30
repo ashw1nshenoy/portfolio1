@@ -1,4 +1,8 @@
 /*Social Links*/
+
+function whatsapp(){
+    window.open("https://wa.me/919449185385?text=Hi! Ashwin I came here through ur Website")
+}
 function instagram(){
     window.open("https://www.instagram.com/___ashwin007_/")
 }
@@ -7,6 +11,9 @@ function linkedin(){
 }
 function github(){
     window.open("https://github.com/ashw1nshenoy")
+}
+function mail(){
+    window.open('mailto:ashwinshenoy20@gmail.com')
 }
 /*Projects*/
 function qr(){
