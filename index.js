@@ -1,3 +1,7 @@
+var typed = new Typed('#element', {
+    strings: [' Welcome', 'I am Ashwin Shenoy',' I am a Learner','I am a Web Developer',': )'],
+    typeSpeed: 100,
+  });  
 /*Social Links*/
 
 function whatsapp(){

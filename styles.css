@@ -32,10 +32,9 @@ body{
   }
  
 .typing-effect{
-    width: 15ch;
     font-family: 'Yatra One', cursive;  
     overflow: hidden;
-    animation: typing 2s steps(10) infinite alternate-reverse;
+    animation:2s steps(10) infinite alternate-reverse;
 }
 a{
     text-decoration: none;
@@ -58,6 +57,13 @@ header{
     font-size: large;
     font-family: 'Caveat', cursive;
     margin: 0.8rem;
+}
+.hover-effect{
+    color: white;
+}
+.hover-effect:hover{
+    color:  #97D9E1 ;
+
 }
 .logo{
 padding:0rem 1.5rem;
