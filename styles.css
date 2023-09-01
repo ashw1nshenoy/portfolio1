@@ -270,7 +270,7 @@ letter-spacing: 0.22rem;
     padding: 0.4rem;
     width: 5rem;
     border-radius: 0.7rem;
-    border-color: black;
+    border: none;
     box-shadow: 0.6rem 0.7rem 1rem #BCBFD6
 
 }
@@ -292,10 +292,41 @@ letter-spacing: 0.22rem;
     margin: 0.6rem;
 }
 .sec6{
-
     width: 50%;
     padding: 5rem;
     margin: 3rem;
     border-radius: 2rem;
     box-shadow: 1.1rem 1rem 1.8rem #BCBFD6;
+}
+.input{
+    width: 23rem;
+    margin-bottom: 1rem;
+    height: 2.6rem;
+    border: 0;
+    outline: 0;
+    padding: 0  0 0 1rem;
+    border-radius: 0.6rem;
+}
+textarea{
+    width: 22rem;
+    margin-bottom: 1rem;
+    border: 0;
+    outline: 0;
+    padding: 0.5rem 1rem;
+    border-radius: 0.6rem;
+    resize: none;
+}
+.formsubmit{
+    width: 8rem;
+    height: 2rem;
+    border-radius: 0.7rem;
+    outline: 0;
+    border: 0;
+}
+.movetop{
+    height: 2rem;
+    width: 2rem;
+    position: relative;
+    left: 30%;
+    cursor: pointer;
 }

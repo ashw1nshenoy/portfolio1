@@ -7,7 +7,11 @@
     <link rel="icon" href="Images/icon.png" type="image/icon type">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="utils.css">
-    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>(function(){
+        emailjs.init("_z-sq8q-VOT8E1e7M");
+     })();</script>
+     <script src="form.js"></script>
 </head>
 <body>
     <!--Intro-->
@@ -141,7 +145,6 @@
             <img src="Images/Logos/whatsapp.png" alt="whatsapp" class="social" onclick="whatsapp()">
             <img src="Images/Logos/linkedin.png" alt="Linkedin" class="social" onclick="linkedin()">
             <img src="Images/Logos/github.png" alt="github" class="social" onclick="github()">
-            <img src="Images/Logos/gmail.png" alt="Gmail" class="social" onclick="mail()">
            
         </div>
         </section>
@@ -180,21 +183,18 @@
         <!--Contact ME Formm-->
         <div class="flex item-center">
         <section class="sec6 flex item-center flexcol gradient-background" id="contact">
-        <h2>Contact Me</h2>
-        <table>
-            <form action="mailto:ashwinshenoy20@gmail.com" method="post" enctype="text/plain">
-                <input type="text" placeholder="Enter Your Name" required >
-                <input type="email" placeholder="Enter your Email-Id" required>
-                <input type="text" placeholder="Enter Your Phone Number">
-                <textarea name="Message" id="Message" cols="50" rows="10" placeholder="Enter the Message" required></textarea>
-                <input type="submit">
-            </form>
-            </table>
+        <img src="Images/pin image.png" alt="pin" class="pin">
+        <h2>Get in touch</h2>
+                <input type="text" placeholder="Your Name" id="name" class="input" required >
+                <input type="email" placeholder="Email id" id="email" class="input" required>
+                <textarea name="Message" id="message" cols="50" rows="10" placeholder="Enter the Message" required></textarea>
+                <input type="submit" class="formsubmit" onclick="sendEmail()">
         </section>
     </div>
     <!--Footer -->
         <section class="footer flex item-center" >
             <p>Made with ❤️ by Ashwin Shenoy</p>
+            <img src="Images/movetotop.png" alt="top" class="movetop" onclick="moveTop()">
         </section>
     </div>
     <!--Javascript Links-->

@@ -1,6 +1,6 @@
 var typed = new Typed('#element', {
-    strings: [' Welcome', 'I am Ashwin Shenoy',' I am a Learner','I am a Web Developer',': )'],
-    typeSpeed: 100,
+    strings: [' Welcome : )', 'I am Ashwin Shenoy',' I am a Learner','I am a Web Developer'],
+    typeSpeed: 100, loop:true,
   });  
 /*Social Links*/
 
@@ -16,9 +16,6 @@ function linkedin(){
 function github(){
     window.open("https://github.com/ashw1nshenoy")
 }
-function mail(){
-    window.open('mailto:ashwinshenoy20@gmail.com')
-}
 /*Projects*/
 function qr(){
     window.open("https://github.com/ashw1nshenoy/Qrcode",'_blank')
@@ -28,3 +25,7 @@ function myFunction() {
     var element = document.body;
     element.classList.toggle("dark-mode");
 }     
+/*movetop*/
+function moveTop(){
+    window.location.href="#top"
+}
