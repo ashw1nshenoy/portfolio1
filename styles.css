@@ -89,6 +89,7 @@ letter-spacing: 0.22rem;
     transform: translate(-50%,-50%);
     z-index: 1;
     text-align: center;
+    cursor: default;
 }
 .box ul li{
     position: absolute;
@@ -188,6 +189,7 @@ letter-spacing: 0.22rem;
     flex-direction: column;
     text-align: center;
     padding-bottom: 1rem;
+    cursor: default;
 }
 .sec1 h2 ,h3{
     margin: 0.1rem ;
@@ -210,6 +212,7 @@ letter-spacing: 0.22rem;
     padding: 5rem;
     margin: 3rem;
     border-radius: 2rem;
+    cursor: default;
     box-shadow: 1.1rem 1rem 1.8rem #BCBFD6;
 }
 .about p{
@@ -224,11 +227,12 @@ letter-spacing: 0.22rem;
     margin: 3rem;
     border-radius: 2rem;
     box-shadow: 1.1rem 1rem 1.8rem #BCBFD6;
+    cursor: default;
 }
 .skills{
     height: 3rem;
     width: 3rem;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
 }
 .sec3 p{
     font-weight: bold;
@@ -243,6 +247,7 @@ letter-spacing: 0.22rem;
     margin: 3rem;
     border-radius: 2rem;
     box-shadow: 1.1rem 1rem 1.8rem #BCBFD6;
+    cursor: default;
 }
 .social{
     height: 3rem;
@@ -260,6 +265,7 @@ letter-spacing: 0.22rem;
     margin: 3rem;
     border-radius: 2rem;
     box-shadow: 1.1rem 1rem 1.8rem #BCBFD6;
+    cursor: default;
 }
 .pin{
     height: 1.7rem;
@@ -278,6 +284,7 @@ letter-spacing: 0.22rem;
     transform: scale(1.1);
     background-color: black;
     color: white;
+    cursor: pointer;
 }
 .project1 , .project2, .project3 , .project4{
     padding: 1rem;
@@ -285,11 +292,11 @@ letter-spacing: 0.22rem;
 .projectimage{
     height: 17rem;
     width: 15rem;
-    padding: 1rem;
+    margin: 1rem;
 }
-.view{
-    width: 4rem;
-    margin: 0.6rem;
+.projectimage:hover{
+    background-color: grey;
+    opacity: 40%;
 }
 .sec6{
     width: 50%;
@@ -297,10 +304,11 @@ letter-spacing: 0.22rem;
     margin: 3rem;
     border-radius: 2rem;
     box-shadow: 1.1rem 1rem 1.8rem #BCBFD6;
+    cursor: default;
 }
 .input{
     width: 23rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.8rem;
     height: 2.6rem;
     border: 0;
     outline: 0;
@@ -309,7 +317,7 @@ letter-spacing: 0.22rem;
 }
 textarea{
     width: 22rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     border: 0;
     outline: 0;
     padding: 0.5rem 1rem;
@@ -322,6 +330,14 @@ textarea{
     border-radius: 0.7rem;
     outline: 0;
     border: 0;
+    box-shadow: 0.6rem 0.7rem 1rem #BCBFD6
+
+}
+.formsubmit:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
 .movetop{
     height: 2rem;
