@@ -180,11 +180,26 @@ letter-spacing: 0.22rem;
     height: 20rem;
     width: 15rem;
     position: absolute;
-    top: 50vh;
+    top: 49vh;
     left: 7rem;
     z-index: 1;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
-
+@keyframes floating {
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(0,1.5rem);
+    }
+    100%{
+        transform: translate(0,-0);
+    }
+    
+}
 .sec1{
     flex-direction: column;
     text-align: center;
@@ -294,7 +309,7 @@ letter-spacing: 0.22rem;
     width: 15rem;
     margin: 1rem;
 }
-.projectimage:hover{
+.projectimage:hover{    
     background-color: grey;
     opacity: 40%;
 }
