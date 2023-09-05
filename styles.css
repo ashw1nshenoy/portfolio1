@@ -299,17 +299,10 @@ letter-spacing: 0.22rem;
     color: white;
     cursor: pointer;
 }
-.project1 , .project2, .project3 , .project4{
-    padding: 1rem;
-}
 .projectimage{
     height: 17rem;
-    width: 15rem;
-    margin: 1rem;
-}
-.projectimage:hover{    
-    background-color: grey;
-    opacity: 40%;
+    width: 17rem;
+
 }
 .sec6{
     width: 50%;
