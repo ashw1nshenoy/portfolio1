@@ -1,3 +1,4 @@
+/*commonly Used*/
 ul{
     list-style: none;
 }
@@ -30,8 +31,7 @@ li{
 table td{
     padding: 0.5rem;
 }
-.footer{
-    height: 5rem;
-    color: white;
-    background-color: black;
+.pin{
+    height: 1.7rem;
+    width: 1.7rem;
 }
