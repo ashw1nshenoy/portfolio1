@@ -210,12 +210,37 @@ letter-spacing: 0.22rem;
     margin: 0.1rem ;
 }
 .sec1 img{
+    position: absolute;
+    top: 119.7%;
     height: 20rem;
     width: 20rem;
     border-radius: 50%;
-    border: 0.3rem solid #F6FF86;
     margin: 5rem 3rem 3rem 3rem;
-    box-shadow: 1rem 0.6rem 2rem #FEFF86 ;
+    
+    
+}
+.circle{
+    margin: 9rem;
+    z-index: -1;
+    height: 20rem;
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 50%;
+    border: 0.3rem solid #F6FF86;
+    border-right-color:  #f394f3 ;
+    border-left-color:   #97D9E1 ;
+    border-top-color:  #ffffff;
+    border-bottom-color:  #D9AFD9 ;
+    animation: border 1s linear infinite;
+}
+@keyframes border {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
 }
 /*About ME*/
 .sec2{
