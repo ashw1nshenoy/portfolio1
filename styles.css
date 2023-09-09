@@ -48,17 +48,18 @@ header{
     z-index: 5;
 }
 .nav{
-    background-color:black;
-    color: white;
+    color:black;
+    background-color: whitesmoke;
     padding-right: 1rem;
  }
 .navbar{
+    font-weight: 500;
     font-size: large;
     font-family: 'Caveat', cursive;
     margin: 0.8rem;
 }
 .hover-effect{
-    color: white;
+    color: black;
 }
 .hover-effect:hover{
     color:  #97D9E1 ;
@@ -229,7 +230,7 @@ letter-spacing: 0.22rem;
     border: 0.3rem solid #F6FF86;
     border-right-color:  #f394f3 ;
     border-left-color:   #97D9E1 ;
-    border-top-color:  #ffffff;
+    border-top-color:  whitesmoke;
     border-bottom-color:  #D9AFD9 ;
     animation: border 1s linear infinite;
 }
@@ -447,6 +448,7 @@ textarea{
     cursor: pointer;
 }
 .footer{
+    margin-top: 2rem;
     height: 5rem;
     color: white;
     background-color: black;

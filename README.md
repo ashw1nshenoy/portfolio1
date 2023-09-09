@@ -1,2 +1,2 @@
 # portfolio1
-My First Portfolio website using HTML ,CSS and Javascript
+My First Portfolio website using purely HTML ,CSS and Javascript
