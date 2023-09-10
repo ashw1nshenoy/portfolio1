@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 html{
     scroll-behavior: smooth;
-    transition: 1s;
+    transition: 3s;
 }
 body{
     border: 0;
@@ -32,14 +32,10 @@ body{
 .typing-effect{
     font-family: 'Yatra One', cursive;  
     overflow: hidden;
-    animation:2s steps(10) infinite alternate-reverse;
 }
 a{
     text-decoration: none;
     color: inherit;
-}
-@keyframes typing {
-    from{width: 0ch;}    
 }
 header{
     overflow: hidden;
@@ -62,7 +58,7 @@ header{
     color: black;
 }
 .hover-effect:hover{
-    color:  #97D9E1 ;
+    color:  #26d4e7 ;
 
 }
 .logo{
