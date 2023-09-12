@@ -54,6 +54,9 @@ header{
     font-family: 'Caveat', cursive;
     margin: 0.8rem;
 }
+.navbar:hover{
+    transform: scale(1.1);
+}
 .hover-effect{
     color: black;
 }
