@@ -438,15 +438,62 @@ textarea{
     body{
         width: 100vh;
     }
+    .box{
+        width: 100vh;
+    }
+    .box ul li{
+        position: absolute;
+        width: 1rem;
+        height: 2rem;
+        list-style: none;
+        opacity: 0;
+        background: radial-gradient(#7895CB,transparent,transparent);
+        bottom: 0;
+        animation: animate 8s linear infinite;
+    }
+    .box ul li:nth-child(2){
+        left: 190vw;
+        animation-delay: 2s;
+    }
+    .box ul li:nth-child(3){
+        left: 180vw;
+        animation-delay: 3s;
+    }
+    .box ul li:nth-child(4){
+        left: 160vw;
+        animation-delay: 4s;
+    }
+    .box ul li:nth-child(5){
+        left: 140vw;
+        animation-delay: 2s;
+    }
+    .box ul li:nth-child(6){
+        left: 155vw;
+        animation-delay: 4s;
+    }
+    .box ul li:nth-child(7){
+        left: 135vw;
+        animation-delay: 5s;
+    }
+    .box ul li:nth-child(8){
+        left: 118vw;
+        animation-delay: 4.5s;
+    }
+    .box ul li:nth-child(9){
+        left: 105vw;
+        animation-delay: 6s;
+    }
     .parallax{
         text-align: center;
+        width: 100vh;
     }
     .content{
         height: 100vh;
     }
     .content img{
-        height: 30%;
-        width: 30%;
+        margin-top: 8rem;
+        height: 25%;
+        width: 25%;    
     }
     .logo{
         padding-top: 1rem;
@@ -455,7 +502,7 @@ textarea{
         flex-direction: column;
     }
     .navbar{
-        font-size: large;
+        font-size: larger;
     }
     .content img{
         width: 50%;
@@ -474,7 +521,7 @@ textarea{
         width: 50%;
     }
     .sec5,.sec6{
-        width: 60%;
+        width: 50%;
     }
     .input,#message{
         width: 75%;
