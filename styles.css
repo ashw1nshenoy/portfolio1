@@ -32,6 +32,7 @@ body{
 .typing-effect{
     font-family: 'Yatra One', cursive;  
     overflow: hidden;
+    text-align: center;
 }
 a{
     text-decoration: none;
@@ -82,7 +83,7 @@ letter-spacing: 0.22rem;
 }
 .content h1{
     color: white;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -459,16 +460,19 @@ textarea{
 }
 /*Media Queries*/
 @media only screen and (max-width: 1150px) and (min-width:200px){
-    .parallax{
-        font-size: smaller;
-        width: 100%;
+    body{
+        width: 100vh;
     }
-    .nav{
+    .parallax{
+        
+        text-align: center;
+    }
+    /*.nav{
         flex-direction: column;
     }
     .navbar{
         font-size: smaller;
-    }
+    }*/
     .content img{
         width: 50%;
     }
@@ -479,6 +483,13 @@ textarea{
     .projectrow{
         flex-direction: column;
         align-items: center;
+        width: 50%;
+    }
+    .skillimg{
+        font-size: medium;
+        width: 50%;
+    }
+    .sec5{
         width: 50%;
     }
     .sec6,.input,#message{
