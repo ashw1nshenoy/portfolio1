@@ -326,6 +326,9 @@ letter-spacing: 0.22rem;
     box-shadow: 1.1rem 1rem 1.8rem #BCBFD6;
     cursor: default;
 }
+.sec5,.project1,.project2,.project3,.project4{
+    flex-wrap: wrap;
+}
 
 .projectimage{
     height: 17rem;
@@ -453,4 +456,32 @@ textarea{
     height: 5rem;
     color: white;
     background-color: black;
+}
+/*Media Queries*/
+@media only screen and (max-width: 1150px) and (min-width:200px){
+    .parallax{
+        font-size: smaller;
+        width: 100%;
+    }
+    .nav{
+        flex-direction: column;
+    }
+    .navbar{
+        font-size: smaller;
+    }
+    .content img{
+        width: 50%;
+    }
+    .circle{
+        opacity: 0;
+        width: 50%;
+    }
+    .projectrow{
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+    }
+    .sec6,.input,#message{
+        width: 50%;
+    }
 }
