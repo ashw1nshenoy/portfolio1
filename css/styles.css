@@ -452,7 +452,7 @@ textarea{
         animation: animate 8s linear infinite;
     }
     .box ul li:nth-child(2){
-        left: 190vw;
+        left: 160vw;
         animation-delay: 2s;
     }
     .box ul li:nth-child(3){
@@ -460,7 +460,7 @@ textarea{
         animation-delay: 3s;
     }
     .box ul li:nth-child(4){
-        left: 160vw;
+        left: 166vw;
         animation-delay: 4s;
     }
     .box ul li:nth-child(5){
