@@ -3,9 +3,11 @@ var typed = new Typed('#element', {
     typeSpeed: 100, loop:true,
   });  
 /*Social Links*/
-
+function resume(){
+    window.open("Images/Resume-Ashwin Shenoy.pdf")
+}
 function whatsapp(){
-    window.open("https://wa.me/919449185385?text=Hi! Ashwin I came here through ur Website")
+    window.open("https://wa.me/919449185385?text=Hi Ashwin ! I came here through ur Website")
 }
 function instagram(){
     window.open("https://www.instagram.com/___ashwin007_/")
