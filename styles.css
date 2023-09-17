@@ -207,6 +207,10 @@ letter-spacing: 0.22rem;
     padding-bottom: 1rem;
     cursor: default;
 }
+.textjustify{
+    text-align: justify;
+    text-justify: inter-word;
+}
 .sec1 h2 ,h3{
     margin: 0.1rem ;
 }
@@ -464,15 +468,24 @@ textarea{
         width: 100vh;
     }
     .parallax{
-        
         text-align: center;
     }
-    /*.nav{
+    .content{
+        height: 100vh;
+    }
+    .content img{
+        height: 30%;
+        width: 30%;
+    }
+    .logo{
+        padding-top: 1rem;
+    }
+    .nav{
         flex-direction: column;
     }
     .navbar{
-        font-size: smaller;
-    }*/
+        font-size: large;
+    }
     .content img{
         width: 50%;
     }
@@ -489,10 +502,10 @@ textarea{
         font-size: medium;
         width: 50%;
     }
-    .sec5{
-        width: 50%;
+    .sec5,.sec6{
+        width: 60%;
     }
-    .sec6,.input,#message{
-        width: 50%;
+    .input,#message{
+        width: 75%;
     }
 }
