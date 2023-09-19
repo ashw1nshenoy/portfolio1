@@ -452,40 +452,39 @@ textarea{
         animation: animate 8s linear infinite;
     }
     .box ul li:nth-child(2){
-        left: 160vw;
+        right: 10%;
         animation-delay: 2s;
     }
     .box ul li:nth-child(3){
-        left: 180vw;
+        right: 43%;
         animation-delay: 3s;
     }
     .box ul li:nth-child(4){
-        left: 166vw;
+        right: 33%;
         animation-delay: 4s;
     }
     .box ul li:nth-child(5){
-        left: 140vw;
+        right: 20%;
         animation-delay: 2s;
     }
     .box ul li:nth-child(6){
-        left: 155vw;
+        right: 46%;
         animation-delay: 4s;
     }
     .box ul li:nth-child(7){
-        left: 135vw;
+        right: 27%;
         animation-delay: 5s;
     }
     .box ul li:nth-child(8){
-        left: 118vw;
+        right: 38%;
         animation-delay: 4.5s;
     }
     .box ul li:nth-child(9){
-        left: 105vw;
+        right: 99%;
         animation-delay: 6s;
     }
     .parallax{
-        text-align: center;
-        width: 100vh;
+        text-align: center; 
     }
     .content{
         height: 100vh;
