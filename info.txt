@@ -7,4 +7,3 @@ interest in pursuing a career in the field of Full Stack Web Development .
 I like to explore new technologies and participate in hackathons to
 stay up-to-date with the latest trends and advancements
 in the field.
-/*scroll transitions to href pending*/
