@@ -435,59 +435,16 @@ textarea{
 }
 /*Media Queries*/
 @media only screen and (max-width: 1150px) and (min-width:200px){
-    body{
-        width: 100vh;
-    }
+ 
     .box{
         width: 100vh;
-    }
-    .box ul li{
-        position: absolute;
-        width: 1rem;
-        height: 2rem;
-        list-style: none;
-        opacity: 0;
-        background: radial-gradient(#7895CB,transparent,transparent);
-        bottom: 0;
-        animation: animate 8s linear infinite;
-    }
-    .box ul li:nth-child(2){
-        right: 10%;
-        animation-delay: 2s;
-    }
-    .box ul li:nth-child(3){
-        right: 43%;
-        animation-delay: 3s;
-    }
-    .box ul li:nth-child(4){
-        right: 33%;
-        animation-delay: 4s;
-    }
-    .box ul li:nth-child(5){
-        right: 20%;
-        animation-delay: 2s;
-    }
-    .box ul li:nth-child(6){
-        right: 46%;
-        animation-delay: 4s;
-    }
-    .box ul li:nth-child(7){
-        right: 27%;
-        animation-delay: 5s;
-    }
-    .box ul li:nth-child(8){
-        right: 38%;
-        animation-delay: 4.5s;
-    }
-    .box ul li:nth-child(9){
-        right: 99%;
-        animation-delay: 6s;
     }
     .parallax{
         text-align: center; 
     }
     .content{
         height: 100vh;
+        width: 100vw;
     }
     .content img{
         margin-top: 8rem;
