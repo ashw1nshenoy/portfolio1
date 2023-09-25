@@ -448,8 +448,15 @@ textarea{
     }
     .content img{
         margin-top: 8rem;
-        height: 25%;
-        width: 25%;    
+        height: 20%;
+        width: 20%;    
+    }
+    .sec1 img{
+        height: 50%;
+        width: 50%;
+    }
+    .sec2 h2,p{
+        font-size: small;
     }
     .logo{
         padding-top: 1rem;
@@ -458,7 +465,7 @@ textarea{
         flex-direction: column;
     }
     .navbar{
-        font-size: larger;
+        font-size: smaller;
     }
     .content img{
         width: 50%;
@@ -470,14 +477,14 @@ textarea{
     .projectrow{
         flex-direction: column;
         align-items: center;
-        width: 50%;
+        width: 10%;
     }
     .skillimg{
         font-size: medium;
         width: 50%;
     }
-    .sec5,.sec6{
-        width: 50%;
+    .sec5{
+        width: 35%;
     }
     .input,#message{
         width: 75%;
