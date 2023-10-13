@@ -51,7 +51,7 @@ header{
  }
 .navbar{
     font-weight: 500;
-    font-size: large;
+    font-size: 1.3rem;
     font-family: 'Caveat', cursive;
     margin: 0.8rem;
 }
@@ -68,8 +68,7 @@ header{
 .logo{
 padding:0rem 1.5rem;
 font-family: 'Mrs Saint Delafield', cursive;
-font-weight: 400;
-font-size: 1.6rem;
+font-size: 1.8rem;
 letter-spacing: 0.22rem;
 }
 .box ul{
