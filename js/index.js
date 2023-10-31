@@ -31,3 +31,31 @@ function myFunction() {
 function moveTop(){
     window.location.href="#top"
 }
+/*Custom Notification*/
+function thanksonsubmit(){
+var close = document.getElementsByClassName("closebtn");
+var i;
+
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function(){
+    var div = this.parentElement;
+    div.style.opacity = "0";
+    setTimeout(function(){ div.style.display = "none"; }, 600);
+  }
+}
+}
+/*Scroll reveal*/
+ScrollReveal({
+    reset:true,
+    duration:2000,
+    delay:25,
+})
+ScrollReveal().reveal('.content img',{delay:500,origin:'top',interval:200,distance:'45px'})
+ScrollReveal().reveal('.sec1 img',{delay:200,origin:'bottom',interval:200,distance:'45px'})
+ScrollReveal().reveal('.sec1 h2',{delay:200,origin:'right',interval:200,distance:'45px'})
+ScrollReveal().reveal('.sec1 h3',{delay:200,origin:'left',interval:200,distance:'45px'})
+ScrollReveal().reveal('.sec2',{delay:500,origin:'right',interval:200,distance:'5px'})
+ScrollReveal().reveal('.sec3',{delay:200,origin:'left',interval:200,distance:'5px'})
+ScrollReveal().reveal('.sec4',{delay:200,origin:'right',interval:200,distance:'5px'})
+ScrollReveal().reveal('.sec5 ',{delay:200,origin:'left',interval:200,distance:'5px'})
+ScrollReveal().reveal('.sec6',{delay:200,origin:'right',interval:200,distance:'5px'})

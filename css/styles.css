@@ -1,9 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
 html{
     scroll-behavior: smooth;
     transition: 3s;
+}
+/*Loader*/
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100vw ;
+    height: 100vh;
+    background-color: #000;
+   transition: opacity 1s ,visibility 1s;
+   
+}
+.loaderhide{
+    opacity: 0;
+    visibility: hidden;
+}
+.loader::after{
+
+    content: "";
+    width: 4rem;
+    height: 4rem;
+    border: 0.5rem solid whitesmoke;
+    border-top-color: #97D9E1;
+    border-radius: 50%;
+    animation: loading 0.75s ease infinite;
+}
+@keyframes loading {
+    from{transform: rotate(0turn);} 
+    to{transform: rotate(1turn);}   
 }
 body{
     border: 0;
@@ -63,7 +93,6 @@ header{
 }
 .hover-effect:hover{
     color:  #26d4e7 ;
-
 }
 .logo{
 padding:0rem 1.5rem;
@@ -218,6 +247,11 @@ letter-spacing: 0.22rem;
     box-shadow: 0.3rem 0.3rem 1.5rem  yellow;
 }
 /*About ME*/
+.mainfont{
+    font-family: 'Caveat', cursive;
+    font-weight: lighter;
+    font-size: x-large;
+}
 .sec2{
     margin-top: 1rem;
 }
@@ -432,6 +466,30 @@ textarea{
     color: white;
     background-color: black;
 }
+/*Custom Notification*/
+.alert {
+    position: sticky;
+    top: 0;
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+  }
+  .alert.success {background-color: #04AA6D;}
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
 /*Media Queries*/
 @media only screen and (max-width: 1150px) and (min-width:200px){
  
