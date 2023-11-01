@@ -1,3 +1,10 @@
+/*Loader*/
+window.addEventListener("load",()=>{
+    document.querySelector(".loader").classList.add("loaderhide")
+    document.querySelector(".loader").addEventListener("transitionend",()=>{
+        document.body.removeChild(document.querySelector(".loader"))
+    })
+})
 var typed = new Typed('#element', {
     strings: [' Welcome : )', 'I am Ashwin Shenoy',' I am a Learner','I am a Web Developer'],
     typeSpeed: 100, loop:true,
@@ -32,18 +39,18 @@ function moveTop(){
     window.location.href="#top"
 }
 /*Custom Notification*/
-function thanksonsubmit(){
-var close = document.getElementsByClassName("closebtn");
-var i;
+// function thanksonsubmit(){
+// var close = document.getElementsByClassName("closebtn");
+// var i;
 
-for (i = 0; i < close.length; i++) {
-  close[i].onclick = function(){
-    var div = this.parentElement;
-    div.style.opacity = "0";
-    setTimeout(function(){ div.style.display = "none"; }, 600);
-  }
-}
-}
+// for (i = 0; i < close.length; i++) {
+//   close[i].onclick = function(){
+//     var div = this.parentElement;
+//     div.style.opacity = "0";
+//     setTimeout(function(){ div.style.display = "none"; }, 600);
+//   }
+// }
+// }
 /*Scroll reveal*/
 ScrollReveal({
     reset:true,
