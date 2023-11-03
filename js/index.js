@@ -29,6 +29,9 @@ function github(){
 function qr(){
     window.open("https://github.com/ashw1nshenoy/Qrcode",'_blank')
 }
+function todo(){
+    window.open(" https://ashw1nshenoy.github.io/TODOLIST/",'_blank')
+}
 /*Dark Mode*/
 function myFunction() {
     var element = document.body;
