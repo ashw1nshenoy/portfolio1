@@ -32,6 +32,9 @@ function qr(){
 function todo(){
     window.open(" https://ashw1nshenoy.github.io/TODOLIST/",'_blank')
 }
+function cec(){
+    window.open(" https://cecclone.vercel.app",'_blank')
+}
 /*Dark Mode*/
 function myFunction() {
     var element = document.body;
